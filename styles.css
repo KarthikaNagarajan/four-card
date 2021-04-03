@@ -1,0 +1,75 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(229, 6%, 66%);
+    text-align:center;
+    background-color: hsl(0, 0%, 98%);
+    overflow-x: hidden;
+    font-size: 14px;
+}
+
+h5,h2{
+    color: hsl(228, 5%, 38%);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+img{
+    float : right;
+    padding-top: 5%;
+}
+.header-normal{
+    padding: 5% 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+    padding:1% 30% 3%;
+}
+ .col-padding{
+     padding : 0;
+ }
+ .supervisior,.builder, .karma, .calculator{
+    background-color: white;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    padding:10%;
+    border-radius: 2%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 5px  hsl(243, 100%, 93%), -5px 0 5px hsl(243, 100%, 93%);
+ }
+.supervisior{
+    border-top:solid 3px hsl(180, 62%, 55%);
+    margin:25% 0 0 20%;
+}
+
+.builder{
+    border-top:solid 3px hsl(0, 78%, 62%);
+    margin: 0 7% 7%;
+}
+.karma{
+    border-top:solid 3px  hsl(34, 97%, 64%);
+    margin: 0 7% 10%;
+}
+.calculator{
+    border-top:solid 3px hsl(212, 86%, 64%);
+    margin:25% 20% 0 0 ;
+}
+.calculator img{
+    padding-top: 3%;
+}
+.attribution{
+    font-size: 12px;
+}
+@media (max-width:775px){
+    .about{
+        padding:5% 8% ;
+        font-size: 20px;
+    }
+    .supervisior, .builder, .karma, .calculator{
+        margin: 5% 10% 5%;
+        padding: 10% 11%;
+        font-size: 16px;
+
+    }
+}
